@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">The Ultimate Pizza Experience</h1>
+        <p id="description">This is a survey form to discover how many pizzas people want and how they want it</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">First name:</label><br>
+            <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your first name"><br>
+    
+            <label id="email-label" for="email">Email:</label><br>
+            <input type="email" id="email" name="email" class="form-control" required
+                placeholder="Enter a valid email address"><br>
+    
+            <label id="number-label" for="numberp">Number of pizzas:</label><br>
+            <input type="number" id="number" name="numberp" class="form-control" min="1" max="10" required
+                placeholder="#"><br>
+    
+            <label id="dropdown" for="topping">Favorite Topping:</label><br>
+            <select type="text" id="dropdown" name="topping" required>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="mushroom">Mushroom</option>
+                <option value="garlic">Garlic</option>
+                <option value="pepper">Pepper</option>
+            </select><br>
+    
+            <input type="radio" id="fav" name="fav_pizza" value="Toppings">
+            <label for="toppings"> I like toppings </label><br>
+            <input type="radio" id="fav" name="fav_pizza" value="Cheese">
+            <label for="cheese"> I just like cheese</label><br>
+    
+            <input type="checkbox" id="check1" name="check1" value="Salad">
+            <label for="html">Salad</label><br>
+            <input type="checkbox" id="check2" name="check2" value="French fries">
+            <label for="css">French Fries</label><br>
+            <input type="checkbox" id="check3" name="check3" value="Fried cauliflower">
+            <label for="javascript">Fried Cauliflower</label><br>
+            <textarea placeholder="For extra information please type here."></textarea>
+    
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
