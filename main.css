@@ -2,6 +2,7 @@ body {
   background-color: #9ac7e8;
 }
 
+
 #title {
   text-align: center;
 }
@@ -17,4 +18,20 @@ body {
 
 #name-label {
   margin: 1px;
+}
+
+#top {
+  margin-top: 5px;
+}
+
+#sides {
+  margin-top: 5px;
+}
+
+#dropdown {
+  margin-top: 3px;
+}
+
+#submit {
+  margin: .1rem;
 }
